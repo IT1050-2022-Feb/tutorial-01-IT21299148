@@ -5,6 +5,11 @@
 #include <stdio.h>
 
 int main() {
+
+    int num1=10,num2=20;
+    double avg;
+    avg=num1+num2/2.0;
+    printf("average is%.2f",avg);
   
   return 0;
 }
